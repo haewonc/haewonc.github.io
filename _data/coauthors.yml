@@ -1,6 +1,22 @@
-# "Adams":
-#   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-#     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"lee":
+  - firstname: ["Kyungmin"]
+    url: https://kyungmnlee.github.io/
+  
+"shin":
+  - firstname: ["Jinwoo"]
+    url: https://alinlab.kaist.ac.kr/shin.html
+
+"cha":
+  - firstname: ["Meeyoung"]
+    url: https://www.mpi-sp.org/cha
+
+"vecchietti":
+  - firstname: ["Luiz", "†Luiz", "†Luiz Felipe", "Luiz Felipe"]
+    url: https://lfelipesv.github.io/aboutme/
+  
+"kim":
+  - firstname: ["Youngrae", "†Youngrae"]
+    url: https://youngraekimm.github.io/
 
 # "Podolsky":
 #   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]

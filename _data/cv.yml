@@ -1,97 +1,65 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Bachelor’s Degree
+      institution: Comptuer Science, KAIST
+      year: 2021 Mar
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+# - title: Research Experiences
+#   type: time_table
+#   contents:
+#     - title: Research intern
+#       institution: <a href='https://aqlab.io'>AQLab</a>, Columbia University
+#       year: 2023 May -
+#       description:
+#         - Extending Genie, a generative model for de novo protein design
+#         - Loss-guided diffusion model for controllable protein design
+#     - title: Research intern
+#       institution: <a href='https://alinlab.kaist.ac.kr/index.html'>ALIN Lab</a>, KAIST GSAI
+#       year: 2023 -
+#       description:
+#         - Aligning protein language models to experimental data
+#         - Learnable tokenizer/Few-shot learning of protein language models
+#     - title: Research intern
+#       institution: <a href='https://ds.ibs.re.kr'>DSLAB</a>, KAIST CS
+#       year: 2022
+#       description:
+#         - Reinforcement learning-based protein design
+    
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: <a href='https://github.com/haewonc/codexplorer'>CodeXplorer</a>
+#       institution: CS492(G) Human-AI Interaction, KAIST
+#       year: 2023 Fall
+#       description: 
+#         - Developed an AI-assisted codebase navigation system which is tailored to the user’s objective at the moment
+#     - title: In2Out
+#       institution: SKT AI Fellowship
+#       year: 2023 Jun - Oct
+#       description: 
+#         - Video outpainting using hierarchical discriminator
+#         - Best fellow award
+#     - title: <a href='https://cdsnlab.github.io/urbanflow-documentation/'>UrbanFlow</a>
+#       institution: CDSN Lab, KAIST CS
+#       year: 2023 Jan -
+#       description:
+#         - Assisted research on traffic demand prediction 
+#         - Developed data processing and visualization library for urban intelligence researchers
+#     - title: ERVSR
+#       institution: CS570 AI and ML, KAIST
+#       year: 2022 Spring
+#       description: 
+#         - Reference-based video super-resolution 
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2023 -
+      items: 
+        - KAIST Presidential Fellowship
+    - year: 22 Fall, 23 Fall
+      items: 
+        -  Dean’s List of College of Engineering (Top 3%)

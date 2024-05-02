@@ -1,9 +1,6 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"WACV":
+  url: https://wacv2023.thecvf.com/home
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"NeurIPSW":
+  color: "#2698BA"

@@ -1,1 +1,1 @@
-$(document).ready(function(){medium_zoom=mediumZoom("[data-zoomable]",{background:getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color")+"ee"})});
+$(document).ready(function(){function e(){const e=window.innerHeight,o=window.innerWidth;let n=0;return o>576&&(n=e>o?.2*o:.2*e),n}const o=e();medium_zoom=mediumZoom("[data-zoomable]",{background:getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color")+"ee",margin:o}),$(window).resize(function(){medium_zoom.update({margin:e()})})});

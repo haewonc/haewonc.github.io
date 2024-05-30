@@ -1,5 +1,14 @@
----
----
+@article{lin2024out,
+  abbr={Preprint},
+  title={Out of Many, One: Designing and Scaffolding Proteins at the Scale of the Structural Universe with Genie 2},
+  author={Lin, Yeqing and Lee, Minji and Zhang, Zhao and AlQuraishi, Mohammed},
+  year={2024},
+  pdf={https://arxiv.org/abs/2405.15489},
+  code={https://github.com/aqlaboratory/genie2},
+  selected={true},
+  abstract={Protein diffusion models have emerged as a promising approach for protein design. One such pioneering model is Genie, a method that asymmetrically represents protein structures during the forward and backward processes, using simple Gaussian noising for the former and expressive SE(3)-equivariant attention for the latter. In this work we introduce Genie 2, extending Genie to capture a larger and more diverse protein structure space through architectural innovations and massive data augmentation. Genie 2 adds motif scaffolding capabilities via a novel multi-motif framework that designs co-occurring motifs with unspecified inter-motif positions and orientations. This makes possible complex protein designs that engage multiple interaction partners and perform multiple functions. On both unconditional and conditional generation, Genie 2 achieves state-of-the-art performance, outperforming all known methods on key design metrics including designability, diversity, and novelty. Genie 2 also solves more motif scaffolding problems than other methods and does so with more unique and varied solutions. Taken together, these advances set a new standard for structure-based protein design.},
+  preview={lin2024out.gif}
+}
 
 @article{lee2024robust,
   abbr={ICML},
@@ -7,8 +16,12 @@
   author={Lee, †Minji and Vecchietti, †Luiz Felipe and Jung, Hyunkyu and Ro, Hyunjoo and Cha, Meeyoung and Kim, Ho Min},
   journal={Accepted to International Conference on Machine Learning},
   year={2024},
+  pdf={https://arxiv.org/abs/2405.18986},
+  code={https://github.com/haewonc/LatProtRL},
   award={Preliminary version presented at ML in Structural Biology Workshop at NeurIPS, 2022. See https://www.mlsb.io/papers_2022},
   award_name={Workshop version},
+  preview={lee2024robust.gif},
+  abstract={Proteins are complex molecules responsible for different functions in nature. Enhancing the functionality of proteins and cellular fitness can significantly impact various industries. However, protein optimization using computational methods remains challenging, especially when starting from low-fitness sequences. We propose LatProtRL, an optimization method to efficiently traverse a latent space learned by an encoder-decoder leveraging a large protein language model. To escape local optima, our optimization is modeled as a Markov decision process using reinforcement learning acting directly in latent space. We evaluate our approach on two important fitness optimization tasks, demonstrating its ability to achieve comparable or superior fitness over baseline methods. Our findings and in vitro evaluation show that the generated sequences can reach high-fitness regions, suggesting a substantial potential of LatProtRL in lab-in-the-loop scenarios.},
   selected={true},
 }
 
@@ -19,7 +32,9 @@
   journal={Generative AI and Biology Workshop at NeurIPS},
   year={2023},
   selected={true},
-  html={https://openreview.net/forum?id=DUjUJCqqA7},
+  pdf={https://openreview.net/forum?id=DUjUJCqqA7},
+  preview={lee2023finetuning.png},
+  abstract={The self-supervised protein language models (pLMs) have demonstrated significant potential in predicting the impact of mutations on protein function and fitness, which is crucial for protein design. There are approaches to further condition pLM to language or multiple sequence alignment (MSA) to produce a protein of a specific family or function. However, most of those conditioning is too coarse-grained to express the function, and still exhibit a weak correlation to fitness and struggle to generate fit variants. To address this challenge, we propose a fine-tuning framework for pLM to align it to a specific fitness by ranking the mutants. We show that constructing the ranked pairs is crucial in fine-tuning pLMs, where we provide a simple yet effective method to improve fitness prediction across various datasets. Through experiments on ProteinGym, our method shows substantial improvements in the fitness prediction tasks even using less than 200 labeled data. Furthermore, we demonstrate that our approach excels in fitness optimization tasks.},
   code={https://github.com/haewonc/align-plm}
 }
 
@@ -31,7 +46,9 @@
   pages={1828--1837},
   year={2023},
   selected={true},
+  preview={kim2023efficient.png},
   code={https://github.com/haewonc/ervsr},
-  html={https://openaccess.thecvf.com/content/WACV2023/html/Kim_Efficient_Reference-Based_Video_Super-Resolution_ERVSR_Single_Reference_Image_Is_All_WACV_2023_paper.html}
+  abstract={Reference-based video super-resolution (RefVSR) is a promising domain of super-resolution that recovers high-frequency textures of a video using reference video. The multiple cameras with different focal lengths in mobile devices aid recent works in RefVSR, which aim to super-resolve a low-resolution ultra-wide video by utilizing wide-angle videos. Previous works in RefVSR used all reference frames of a Ref video at each time step for the super-resolution of low-resolution videos. However, computation on higher-resolution images increases the runtime and memory consumption, hence hinders the practical application of RefVSR. To solve this problem, we propose an Efficient Reference-based Video Super-Resolution (ERVSR) that exploits a single reference frame to super-resolve whole low-resolution video frames. We introduce an attention-based feature align module and an aggregation upsampling module that attends LR features using the correlation between the reference and LR frames. The proposed ERVSR achieves 12xfaster speed, 1/4 memory consumption than previous state-of-the-art RefVSR networks, and competitive performance on the RealMCVSR dataset while using a single reference image.},
+  pdf={https://openaccess.thecvf.com/content/WACV2023/html/Kim_Efficient_Reference-Based_Video_Super-Resolution_ERVSR_Single_Reference_Image_Is_All_WACV_2023_paper.html}
 }
 

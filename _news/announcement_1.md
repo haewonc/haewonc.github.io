@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper accepted to ICML 24! 
+A paper accepted to ICML (spotlight)! 

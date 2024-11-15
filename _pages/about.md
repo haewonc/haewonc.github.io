@@ -17,7 +17,11 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-Hi 🙌 I am a first-year PhD student in Computer Science at Columbia University, advised by <a href='https://aqlab.io'>Mohammed AlQuraishi</a>. I completed my Bachelor's in CS at <a href='https://cs.kaist.ac.kr/'>KAIST</a> this June, where I worked in ALIN Lab advised by <a href='https://alinlab.kaist.ac.kr/index.html'>Jinwoo Shin</a> and Institute for Basic Science advised by <a href='https://www.mpi-sp.org/cha'>Meeyoung Cha</a> and <a href='https://protein.ibs.re.kr/'>Homin Kim</a>. I’m interested in building **foundation model for biology** that can be conditioned/aligned to desired properties. 
+Hi 🙌 I am a first-year PhD student in Computer Science at Columbia University, advised by <a href='https://aqlab.io'>Mohammed AlQuraishi</a>. I completed my Bachelor's in CS at <a href='https://cs.kaist.ac.kr/'>KAIST</a> this June, where I worked in ALIN Lab advised by <a href='https://alinlab.kaist.ac.kr/index.html'>Jinwoo Shin</a> and Institute for Basic Science advised by <a href='https://www.mpi-sp.org/cha'>Meeyoung Cha</a> and <a href='https://protein.ibs.re.kr/'>Homin Kim</a>. My research interests includes:
+
+- Diffusion models and language models for protein design
+- Controllable generation and model alignment
+- Reinforcement learning and lab-in-the-loop protein engineering
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

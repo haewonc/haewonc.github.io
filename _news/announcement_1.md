@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-07-02 00:00:00-0400
+date: 2025-06-11 18:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Gave a talk on Genie2 at [ML 4 Protein Engineering seminar](https://youtu.be/jYMkxHD4-34?si=gC7G4KTd01hwTZcd).
+A paper accepted to ICML (spotlight)! Check out Etowah's [thread](https://x.com/etowah0/status/1888977417127055413).

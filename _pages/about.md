@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-Hi 🙌 I am a first-year PhD student in Computer Science at Columbia University, advised by <a href='https://aqlab.io'>Mohammed AlQuraishi</a>. I completed my Bachelor's in CS at <a href='https://cs.kaist.ac.kr/'>KAIST</a> this June, where I worked in ALIN Lab advised by <a href='https://alinlab.kaist.ac.kr/index.html'>Jinwoo Shin</a> and Institute for Basic Science advised by <a href='https://www.mpi-sp.org/cha'>Meeyoung Cha</a> and <a href='https://protein.ibs.re.kr/'>Homin Kim</a>. My research interests includes:
+Hi 🙌 I am a first-year PhD student in Computer Science at Columbia University, advised by <a href='https://aqlab.io'>Mohammed AlQuraishi</a>. I completed my Bachelor's in CS at <a href='https://cs.kaist.ac.kr/'>KAIST</a> last June, where I worked in ALIN Lab advised by <a href='https://alinlab.kaist.ac.kr/index.html'>Jinwoo Shin</a> and Institute for Basic Science advised by <a href='https://www.mpi-sp.org/cha'>Meeyoung Cha</a> and <a href='https://protein.ibs.re.kr/'>Homin Kim</a>. My research interests includes:
 
 - Diffusion models and language models for protein design
 - Controllable generation and model alignment

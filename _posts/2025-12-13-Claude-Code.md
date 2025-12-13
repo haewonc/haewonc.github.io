@@ -3,7 +3,7 @@ layout: distill
 title: "My week using Claude Code"
 description: 
 tags: ["random thoughts"]
-giscus_comments: true
+giscus_comments: false
 date: 2025-12-13
 featured: false
 toc:

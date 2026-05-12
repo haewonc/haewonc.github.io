@@ -1,3 +1,28 @@
+@article{lee2026confornets,
+  abbr={Preprint},
+  title={ConforNets: Latents-Based Conformational Control in OpenFold3},
+  author={Lee, Minji and Kalicki, Colin and Jeon, Minkyu and Qabel, Aymen and Fadini, Alisia and AlQuraishi, Mohammed},
+  journal={arXiv preprint arXiv:2604.18559},
+  year={2026},
+  pdf={https://arxiv.org/abs/2604.18559},
+  code={https://github.com/aqlaboratory/confornets},
+  selected={true},
+  preview={lee2026confornets.gif},
+  abstract={Models from the AlphaFold (AF) family reliably predict one dominant conformation for most well-ordered proteins but struggle to capture biologically relevant alternate states. Several efforts have focused on eliciting greater conformational variability through ad hoc inference-time perturbations of AF models or their inputs. Despite their progress, these approaches remain inefficient and fail to consistently recover major conformational modes. Here, we investigate both the optimal location and manner-of-operation for perturbing latent representations in the AF3 architecture. We distill our findings in ConforNets: channel-wise affine transforms of the pre-Pairformer pair latents. Unlike previous methods, ConforNets globally modulate AF3 representations, making them reusable across proteins. On unsupervised generation of alternate states, ConforNets achieve state-of-the-art success rates on all existing multi-state benchmarks. On the novel supervised task of conformational transfer, ConforNets trained on one source protein can induce a conserved conformational change across a protein family. Collectively, these results introduce a mechanism for conformational control in AF3-based models.}
+}
+
+@article{lin2026fast,
+  abbr={Preprint},
+  title={Fast and Ultra-Capable Protein Design: Advancing the Frontier Through Atomistic SE (3)-Equivariance with Genie 3},
+  author={Lin, †Yeqing and Lee, †Minji and Vermani, Aakarsh and Jiang, Ellena and De Cooman, Sebastiaan and Spetko, Matej and AlQuraishi, Mohammed},
+  journal={bioRxiv},
+  year={2026},
+  pdf={https://arxiv.org/abs/2604.18559},
+  code={https://github.com/aqlaboratory/genie3},
+  selected={true},
+  preview={lin2026fast.gif},
+  abstract={Despite the breakneck pace of progress in protein design methodology, frontier problems remain challenging, with leading methods struggling to design high-affinity binders, scaffold multiple functional motifs, or stabilize large multi-domain proteins. Recent research efforts have focused on two areas: improving model reasoning when generating active sites or binding interfaces, and improving concordance between the design process and the in silico oracle used to select promising designs. In addressing the first, the field has shifted towards all-atom models that capture sidechain conformations in atomistic detail by eschewing data-efficient SE(3)-equivariance, mirroring the evolution of AlphaFold2 to AlphaFold3. In addressing the second, recent work has focused on replacing generative models employing diffusion or flow-matching with hallucination approaches that directly optimize the oracle in sequence space; this improves success rates but reduces computational efficiency. Here, we close and surpass the generation-hallucination gap by revisiting SE(3)-equivariance using a branched polymer treatment of protein structures. The resulting diffusion model, Genie 3, achieves state-of-the-art performance on binder design, motif scaffolding, and unconditional generation, while being significantly faster than the best existing methods. We use Genie 3 to design a nanomolar binder of Nipah Glycoprotein G, a tetramer with minimal structural or biophysical characterization, as part of the Adaptyv Bio Nipah Competition, achieving a 12.5% success rate. Taken together, our results present a new frontier in protein design capability and a reexamination of the role of SE(3)-equivariance in molecular modeling.}
+}
 @article{adams2025mechanistic,
   abbr={ICML},
   title={From Mechanistic Interpretability to Mechanistic Biology: Training, Evaluating, and Interpreting Sparse Autoencoders on Protein Language Models},
@@ -7,6 +32,8 @@
   selected={true},
   award={313/12107 = 2.6% of total submissions},
   award_name={Spotlight},
+  pdf={https://openreview.net/forum?id=zdOGBRQEbz},
+  code={https://github.com/etowahadams/interprot},
   abstract={Protein language models (pLMs) are powerful predictors of protein structure and function, learning through unsupervised training on millions of protein sequences. pLMs are thought to capture common motifs in protein sequences, but the specifics of pLM features are not well understood. Identifying these features would not only shed light on how pLMs work, but potentially uncover novel protein biology--studying the model to study the biology. Motivated by this, we train sparse autoencoders (SAEs) on the residual stream of a pLM, ESM-2. By characterizing SAE features, we determine that pLMs use a combination of generic features and family-specific features to represent a protein. In addition, we demonstrate how known sequence determinants of properties such as thermostability and subcellular localization can be identified by linear probing of SAE features. For predictive features without known functional associations, we hypothesize their role in unknown mechanisms and provide visualization tools to aid their interpretation. Our study gives a better understanding of the limitations of pLMs, and demonstrates how SAE features can be used to help generate hypotheses for biological mechanisms.}
 }
 

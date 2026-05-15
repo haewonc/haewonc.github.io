@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We preprinted ConforNets and Genie 3! 
+We preprinted **ConforNets** and will be giving a talk at the [ML4BioChem Club](https://linnaan-lab.github.io/ML4BIOCHEM/) on May 28 at 10AM ET.
